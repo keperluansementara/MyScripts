@@ -62,7 +62,7 @@ banner = """
 \033[1;32m║Telegram group    : SHPCorps7                   ║
 \033[1;32m║Doge Donate       : Free                        ║
 \033[1;32m╚════════════════════════════════════════════════╝
-"""+Style.RESET_ALL+Style.BRIGHT+Fore.WHITE+"""              [Created by SHPC7 2020]  """
+"""+Style.RESET_ALL+Style.BRIGHT+Fore.WHITE+"""             [Created by SHPC7 2020]  """
 
 cname = '@BTC_Ads_de_bot'
 crot = 'https://t.me/BTC_Ads_de_bot'
@@ -104,7 +104,7 @@ async def main():
 	i = 1
 	while(True):
 		await client.send_message(crot, choice)
-		print_msg_time(Fore.GREEN + 'Click Success >> Lanjut >>  ' + choice + Fore.RESET)
+		print_msg_time(Fore.GREEN + 'Click Success >> ' + choice + Fore.RESET)
 		time.sleep(37) #waktu klik hitungan dalam detik
 		i = 1
 		
